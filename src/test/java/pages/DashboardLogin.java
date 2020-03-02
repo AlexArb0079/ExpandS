@@ -23,7 +23,7 @@ public class DashboardLogin extends PageObject{
 	
 	public void navigateTo() {
 		getDriver().manage().window().maximize();
-		getDriver().get("http://www.duckduckgo.com");
+		getDriver().get("http://canalesdigitales.expand/frontEnd/#login");
 	}
 	
 	public void login(String name, String pass) {
